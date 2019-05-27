@@ -1,0 +1,96 @@
+html{
+	font-size: 100px;
+}
+.container{
+	width: 100%;
+	font-size: 0.16rem;
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+}
+.count{
+	width: 100%;
+	border: 1px solid #5C5C5C;
+	border-radius: 0.1rem;
+	margin-top: 0.2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.count img{
+	margin: 0.1rem auto;
+	/* width: 20%; */
+}
+.count > p{
+	font-size: 0.18rem;
+	font-weight: bold;
+	opacity: 0.8;
+	margin: auto;
+}
+.count > span{
+	font-size: 0.35rem;
+	font-weight: bold;
+	opacity: 0.8;
+}
+.count .shuliang{
+	width: 100%;
+	/* padding: 0.2rem 0.2rem; */
+	color: rgb(101,101,101);
+}
+.count .shuliang > div{
+	margin: 0.2rem 0.2rem;
+	width: 35%;
+}
+.count .shuliang .left span{
+	margin-left: 0.25rem;
+}
+.count .shuliang .right span{
+	margin-left: 0.25rem;
+}
+.detail{
+	width: 100%;
+	border: 1px solid #5C5C5C;
+	border-radius: 0.1rem;
+	margin-top: 0.2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0.2rem;
+}
+.detail .left{
+	width: 45%;
+	line-height: 0.4rem;
+	text-align: start;
+}
+.detail .left .p1{
+	font-size: 0.18rem;
+	font-weight: bold;
+}
+.detail .left .p2{
+	font-size: 0.2rem;
+	font-weight: bolder;
+}
+.detail .right{
+	width: 45%;
+	line-height: 0.4rem;
+	text-align: end;
+}
+.detail .right .p1{
+	font-size: 0.16rem;
+}
+.detail .right .p1 > span{
+	color: rgb(247,190,17);
+}
+.detail .right .p1 .yilingqu{
+	color: rgb(105,190,73);
+}
+.bottom{
+	width: 100%;
+	font-size: 0.18rem;
+	text-align: center;
+	color: #0000FF;
+}
+.bottom a{
+	color: rgb(87,107,149);
+	text-decoration: none;
+}

@@ -1,0 +1,45 @@
+html{
+	font-size: 100px;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	font-size: 0.16rem;
+}
+.wancheng{
+	width: 95%;
+	display: flex;
+	flex-direction: column;
+}
+.wancheng > img{
+	width: 30%;
+	margin: 0.2rem auto;
+}
+.wancheng > h3{
+	margin: auto;
+}
+.xinxi{
+	color: rgb(101,101,101);
+	margin-top: 1.5rem;
+	margin-bottom: 0.3rem;
+	text-align: center;
+}
+.button > button{
+	background-color: rgb(9,187,7);
+	border-radius: 0.1rem;
+	border: none;
+	color: white;
+	font-size: 0.2rem;
+	text-align: center;
+	padding: 0.15rem 1.5rem;
+	margin: 0.1rem 0.15rem;
+}
+.bottom{
+	margin-top: 1.7rem;
+	bottom: 0.2rem;
+	color: rgb(68,68,68);
+	text-align: center;
+}
+.bottom > a{
+	color: rgb(87,107,149);
+}

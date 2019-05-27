@@ -1,0 +1,89 @@
+html{
+	font-size: 100px;
+}
+.container{
+	width: 100%;
+	font-size: 0.16rem;
+	/* display: flex;
+	flex-direction: column;
+	align-items: center; */
+}
+.header{
+	width: 95%;
+	margin-top: 0.3rem;
+	text-align: center;
+	color: rgb(193,193,193);
+}
+.header > img{
+	width: 50%;
+	margin: 0.15rem auto;
+}
+.header > h3{
+	font-size: 0.22rem;
+	font-weight: 500;
+	margin: 0.1rem auto;
+}
+.header > h2{
+	font-size: 0.3rem;
+	font-weight: 400;
+}
+.detail{
+	width: 88%;
+	font-size: 0.2rem;
+	border: 1px solid #5C5C5C;
+	border-radius: 0.1rem;
+	line-height: 0.3rem;
+	text-align: center;
+	padding: 0.2rem;
+	margin: 0.2rem auto;
+}
+.detail .left{
+	text-align: start;
+	color: rgb(101,101,101);
+}
+.detail .right{
+	text-align: end;
+	color: rgb(101,101,101);
+}
+.detail .right .p1{
+	color: rgb(136,136,136);
+}
+.lucky{
+	width: 100%;
+	font-size: 0.14rem;
+	color: rgb(135,135,135);
+	margin: 0.1rem auto;
+}
+.lucky .p2 > span{
+	color: rgb(247,190,17);
+}
+.list{
+	width: 100%;
+	background-color: rgb(248,248,248);
+	font-size: 0.17rem;
+	color: rgb(101,101,101);
+	margin: 0.1rem auto;
+}
+.list .fr > a{
+	color: rgb(9,187,7);
+}
+.list-detail{
+	font-size: 0.18rem;
+	color: rgb(101,101,101);
+	display: flex;
+	flex-wrap: wrap;
+}
+.list-detail .left{
+	flex: 1.5;
+	/* position: relative; */
+}
+
+.list-detail .left >ul > li > p > img{
+	width: 0.2rem;
+/* 	position: absolute;
+	left: 0.25rem;
+	top: -0.08rem; */
+}
+.list-detail .center{
+	flex: 2.5;
+}

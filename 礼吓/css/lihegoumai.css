@@ -1,0 +1,360 @@
+html{
+	font-size: 100px;
+}
+.container{
+	width: 100%;
+	font-size: 0.16rem;
+}
+.top{
+	margin: 0.1rem 0.1rem;
+}
+.top .fl{
+	font-size: 0.16rem;
+	font-weight: bold;
+	opacity: 0.8;
+}
+.top .fr{
+	font-size: 0.14rem;
+	color: rgb(101,101,101);
+}
+.header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.detail{
+	line-height: 0.35rem;
+}
+.detail .henei > p{
+	font-size: 0.16rem;
+	font-weight: bold;
+	opacity: 0.8;
+}
+.detail .neirong > p{
+	color: rgb(101,101,101);
+	font-size: 0.15rem;
+}
+.level{
+	width: 100%;
+	margin: 0.1rem auto;
+	line-height: 0.25rem;
+}
+.level > ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.level > ul >li{
+	width: 45%;
+	height: 1.2rem;
+	margin: 0.1rem 0.08rem;
+	padding: 0.05rem;
+	border: 1px solid #5C5C5C;
+	border-radius: 0.1rem;
+	position: relative;
+}
+
+.level > ul >.vip1 >div .p1{
+	color: rgb(101,101,101);
+	font-size: 0.16rem;
+	font-weight: bold;
+}
+.level > ul >.vip1 > div .p2{
+	font-size: 0.14rem;
+}
+.level > ul > .vip1 > div .p2 > span{
+	font-size: 0.2rem;
+	font-weight: bold;
+}
+.level > ul > .vip1 > div >.p3{
+	font-size: 0.12rem;
+	color: rgb(101,101,101);
+}
+.level > ul > .vip1 > .right > img{
+	width: 0.45rem;
+	margin-right: 0.1rem;
+	margin-top: 0.1rem;
+}
+.level > ul > .vip1 > .footer{
+	width: 100%;
+	position: absolute;
+	top: 0.69rem;
+	left: 0;
+}
+.level > ul > .vip1 > .footer > img{
+	position: absolute;
+	left: 0.7rem;
+}
+
+.level > ul >.vip2 >div .p1{
+	color: rgb(201,179,113);
+	font-size: 0.16rem;
+	font-weight: bold;
+}
+.level > ul >.vip2 > div .p2{
+	font-size: 0.14rem;
+}
+.level > ul > .vip2 > div .p2 > span{
+	font-size: 0.2rem;
+	font-weight: bold;
+}
+.level > ul > .vip2 > div >.p3{
+	font-size: 0.12rem;
+	color: rgb(101,101,101);
+}
+.level > ul > .vip2 > .right > img{
+	width: 0.45rem;
+	margin-right: 0.1rem;
+	margin-top: 0.1rem;
+}
+.level > ul > .vip2 > .footer{
+	width: 100%;
+	position: absolute;
+	top: 0.69rem;
+	left: 0;
+}
+.level > ul > .vip2 > .footer > img{
+	position: absolute;
+	left: 0.7rem;
+}
+
+.level > ul >.vip3 >div .p1{
+	color: rgb(198,206,230);
+	font-size: 0.16rem;
+	font-weight: bold;
+}
+.level > ul >.vip3 > div .p2{
+	font-size: 0.14rem;
+}
+.level > ul > .vip3 > div .p2 > span{
+	font-size: 0.2rem;
+	font-weight: bold;
+}
+.level > ul > .vip3 > div >.p3{
+	font-size: 0.12rem;
+	color: rgb(101,101,101);
+}
+.level > ul > .vip3 > .right > img{
+	width: 0.45rem;
+	margin-right: 0.1rem;
+	margin-top: 0.1rem;
+}
+.level > ul > .vip3 > .footer{
+	width: 100%;
+	position: absolute;
+	top: 0.69rem;
+	left: 0;
+}
+.level > ul > .vip3 > .footer > img{
+	position: absolute;
+	left: 0.7rem;
+}
+
+.level > ul >.vip4 >div .p1{
+	color: rgb(255,222,39);
+	font-size: 0.16rem;
+	font-weight: bold;
+}
+.level > ul >.vip4 > div .p2{
+	font-size: 0.14rem;
+}
+.level > ul > .vip4 > div .p2 > span{
+	font-size: 0.2rem;
+	font-weight: bold;
+}
+.level > ul > .vip4 > div >.p3{
+	font-size: 0.12rem;
+	color: rgb(101,101,101);
+}
+.level > ul > .vip4 > .right > img{
+	width: 0.45rem;
+	margin-right: 0.1rem;
+	margin-top: 0.1rem;
+}
+.level > ul > .vip4 > .footer{
+	width: 100%;
+	position: absolute;
+	top: 0.69rem;
+	left: 0;
+}
+.level > ul > .vip4 > .footer >span{
+	color: rgb(101,101,101);
+	font-size: 0.2rem;
+	font-weight: bold;
+	position: absolute;
+	left: 0.7rem;
+}
+.level > ul > .vip4 > .footer > .fl{
+	position: absolute;
+	left: 0.1rem;
+	top: 0.3rem;
+}
+.level > ul > .vip4 > .footer > .fr{
+	position: absolute;
+	right: 0.1rem;
+	top: 0.2rem;
+}
+.level > ul >.vip5 >div .p1{
+	color: rgb(76,223,241);
+	font-size: 0.16rem;
+	font-weight: bold;
+}
+.level > ul >.vip5 > div .p2{
+	font-size: 0.14rem;
+}
+.level > ul > .vip5 > div .p2 > span{
+	font-size: 0.2rem;
+	font-weight: bold;
+	text-align: start;
+}
+.level > ul > .vip5 > div >.p3{
+	font-size: 0.12rem;
+	color: rgb(101,101,101);
+}
+.level > ul > .vip5  .left{
+	width: 63.3%;
+}
+.level > ul > .vip5 > .right > img{
+	width: 0.45rem;
+	margin-right: 0.1rem;
+	margin-top: 0.1rem;
+}
+.level > ul > .vip5 > .footer{
+	width: 100%;
+	position: absolute;
+	top: 0.69rem;
+	left: 0;
+}
+.level > ul > .vip5 > .footer > img{
+	position: absolute;
+	left: 0.7rem;
+}
+.level > ul >.vip6 >div .p1{
+	color: rgb(92,76,241);
+	font-size: 0.16rem;
+	font-weight: bold;
+}
+.level > ul >.vip6 > div .p2{
+	font-size: 0.14rem;
+}
+.level > ul > .vip6 > div .p2 > span{
+	font-size: 0.2rem;
+	font-weight: bold;
+	text-align: start;
+}
+.level > ul > .vip6 > div >.p3{
+	font-size: 0.12rem;
+	color: rgb(101,101,101);
+}
+.level > ul > .vip6  .left{
+	width: 63.3%;
+}
+.level > ul > .vip6 > .right > img{
+	width: 0.45rem;
+	margin-right: 0.1rem;
+	margin-top: 0.1rem;
+}
+.level > ul > .vip6 > .footer{
+	width: 100%;
+	position: absolute;
+	top: 0.69rem;
+	left: 0;
+}
+.level > ul > .vip6 > .footer > img{
+	position: absolute;
+	left: 0.7rem;
+}
+.level > ul >.vip7 >div .p1{
+	color: rgb(196,76,241);
+	font-size: 0.16rem;
+	font-weight: bold;
+}
+.level > ul >.vip7 > div .p2{
+	font-size: 0.14rem;
+}
+.level > ul > .vip7 > div .p2 > span{
+	font-size: 0.2rem;
+	font-weight: bold;
+	text-align: start;
+}
+.level > ul > .vip7 > div >.p3{
+	font-size: 0.12rem;
+	color: rgb(101,101,101);
+}
+.level > ul > .vip7  .left{
+	width: 63.3%;
+}
+.level > ul > .vip7 > .right > img{
+	width: 0.45rem;
+	margin-right: 0.1rem;
+	margin-top: 0.1rem;
+}
+.level > ul > .vip7 > .footer{
+	width: 100%;
+	position: absolute;
+	top: 0.69rem;
+	left: 0;
+}
+.level > ul > .vip7 > .footer > img{
+	position: absolute;
+	left: 0.7rem;
+}
+.level > ul >.vip8 >div .p1{
+	color: rgb(241,76,227);
+	font-size: 0.16rem;
+	font-weight: bold;
+}
+.level > ul >.vip8 > div .p2{
+	font-size: 0.14rem;
+}
+.level > ul > .vip8 > div .p2 > span{
+	font-size: 0.2rem;
+	font-weight: bold;
+	text-align: start;
+}
+.level > ul > .vip8 > div >.p3{
+	font-size: 0.12rem;
+	color: rgb(101,101,101);
+}
+.level > ul > .vip8  .left{
+	width: 63.3%;
+}
+.level > ul > .vip8 > .right > img{
+	width: 0.45rem;
+	margin-right: 0.1rem;
+	margin-top: 0.1rem;
+}
+.level > ul > .vip8 > .footer{
+	width: 100%;
+	position: absolute;
+	top: 0.69rem;
+	left: 0;
+}
+.level > ul > .vip8 > .footer > img{
+	position: absolute;
+	left: 0.7rem;
+}
+.buchong{
+	font-size: 0.14rem;
+	font-weight: bold;
+	line-height: 0.2rem;
+	text-align: center;
+	color: rgb(101,101,101);
+}
+.zongjia .liangjia .p1{
+	font-size: 0.14rem;
+	color: rgb(101,101,101);
+}
+.zongjia .liangjia .p2{
+	font-size: 0.3rem;
+	font-weight: bolder;
+}
+.zongjia .queren > button{
+	background-color: rgb(105,190,73);
+	border-radius: 0.1rem;
+	border: none;
+	color: white;
+	font-size: 0.2rem;
+	text-align: center;
+	padding: 0.15rem 0.3rem;
+}

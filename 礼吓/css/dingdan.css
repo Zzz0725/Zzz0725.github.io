@@ -1,0 +1,83 @@
+html{
+	font-size: 100px;
+}
+.container{
+	width: 100%;
+	font-size: 0.16rem;
+}
+.header{
+	width: 95%;
+	text-align: center;
+	margin: 0.2rem auto;
+}
+.header > img{
+	width: 80%;
+}
+.header > p{
+	font-size: 0.14rem;
+	margin-top: 0.15rem;
+}
+.shouhuoxinxi{
+	width: 95%;
+	color: rgb(101,101,101);
+}
+.shouhuoxinxi > p{
+	background-color: rgb(248,248,248);
+	font-size: 0.14rem;
+}
+.shouhuoxinxi > div{
+	/* width: 40%; */
+	padding: 0.1rem;
+	line-height: 0.4rem;
+}
+.shouhuoxinxi .shouhuo-left{
+	text-align: start;
+	width: 25%;
+}
+.shouhuoxinxi .shouhuo-right{
+	text-align: end;
+	width: 60%;
+}
+.wuliuxinxi{
+	width: 95%;
+	color: rgb(101,101,101);
+}
+.wuliuxinxi > p{
+	background-color: rgb(248,248,248);
+	font-size: 0.14rem;
+}
+.wuliuxinxi > div{
+	padding: 0.1rem;
+	line-height: 0.4rem;
+}
+.wuliuxinxi .wuliu-left{
+	text-align: start;
+	width: 25%;
+}
+.wuliuxinxi .wuliu-right{
+	text-align: end;
+	width: 60%;
+}
+.wuliu-right > ul > li >span{
+	color: rgb(9,187,7);
+}
+.queren .button{
+	background-color: rgb(9,187,7);
+	width: 95%;
+	border: none;
+	border-radius: 0.1rem;
+	text-align: center;
+	display: inline-block;
+	margin: 0.2rem auto;
+	font-size: 0.25rem;
+	line-height: 0.5rem;
+}
+.kefu{
+	width: 100%;
+	text-align: center;
+}
+.kefu > a{
+	font-size: 0.12rem;
+	color: rgb(87,107,149);
+	text-decoration: none;
+}

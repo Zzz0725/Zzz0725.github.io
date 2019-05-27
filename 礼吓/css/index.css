@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+html {
+	font-size: 100px;
+}
+
+@media all and (max-width:750px) {
+	html{
+		font-size: 120px;
+	}
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: space-around;
+}
+
+.header {
+	width: 100%;
+	position: relative;
+}
+
+.header img {
+	width: 100%;
+}
+
+.header .rule {
+	font-size: 0.2rem;
+	position: absolute;
+	right: 2%;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+
+.header .rule h2 {
+	font-size: 0.16rem;
+	font-weight: bold;
+	position: absolute;
+	right: 0.15rem;
+	top: -0.3rem;
+}
+
+.header .rule p {
+	font-size: 0.12rem;
+	font-weight: lighter;
+	position: absolute;
+	right: 0.2rem;
+	top: -0.05rem;
+}
+.xianding{
+	width: 100%;
+	position: relative;
+	display: flex;
+	margin-top: 0.3rem;
+	flex-wrap: wrap;
+	align-items: baseline;
+}
+.xianding .pic{
+	width: 95%;
+	margin: auto;
+	/* margin: 0.25rem;
+	position: absolute;
+	left: -0.15rem;
+	right: 0;
+	top: 0;
+	bottom: 0; */
+}
+.xianding .guajian{
+	/* border: 1px solid red; */
+	width: 0.4rem;
+	position: absolute;
+	right: -0.1rem;
+	top: -0.2rem;
+}
+.fenge{
+	width: 100%;
+	margin: 0.2rem auto ;
+	display: flex;
+}
+.fenge > img{
+	width: 80%;
+	margin: auto;
+}
+.nav{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+}
+.nav > img{
+	width: 95%;
+	margin: 0.2rem auto;
+}
+.user{
+	width: 100%;
+	font-size: 0.16rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	color: #000000;
+	/* background: #00008B; */
+	text-align: center;
+	margin: auto;
+}
+.user > a{
+	color: #333333;
+	font-weight: 600;
+	text-decoration: none;
+}
+.user > a:visited{
+	color: #333333;
+	font-weight: 600;
+	text-decoration: none;
+}
+.user > span{
+	font-weight: 200;
+}

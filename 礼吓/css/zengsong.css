@@ -1,0 +1,69 @@
+html{
+	font-size: 100px;
+}
+.container{
+	width: 100%;
+	font-size: 0.16rem;
+	display: flex;
+	flex-direction: column;
+	align-items: space-around;
+}
+.header{
+	width: 100%;
+	position: relative;
+}
+.header .img1{
+	width: 30%;
+	position: absolute;
+	top: 0.2rem;
+	left: 35%;
+}
+.header .img2{
+	width: 25%;
+	position: absolute;
+	top: 0.419rem;
+	left: 37%;
+}
+.detail{
+	width: 95%;
+	border: 1px solid rgb(224,224,224);
+	border-radius: 0.1rem;
+	margin: 1.8rem auto 0.2rem;
+	color: rgb(101,101,101);
+	line-height: 0.3rem;
+}
+.detail .cata{
+	padding: 0.1rem 0.3rem;
+}
+.detail .price{
+	padding: 0.1rem 0.2rem;
+	text-align: end;
+}
+.message{
+	width: 95%;
+	color: rgb(101,101,101);
+	margin: 0.2rem auto;
+}
+.message .ppp{
+	font-size: 0.14rem;
+}
+.message .liuyan > textarea{
+	font-size: 0.16rem;
+	font-weight: bold;
+	background-color: rgb(248,248,248);
+	border: none;
+	padding: 0.15rem;
+}
+.submit{
+	width: 100%;
+}
+.submit > button{
+	background-color: rgb(105,190,73);
+	border-radius: 0.1rem;
+	border: none;
+	color: white;
+	font-size: 0.2rem;
+	text-align: center;
+	padding: 0.15rem 1.5rem;
+	margin: 0.1rem 0.15rem;
+}
